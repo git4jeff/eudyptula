@@ -1,0 +1,4 @@
+yan@lp:~/Work/linux$ dmesg | grep Hello
+[   11.526537] Hello, World!
+yan@lp:~/Work/linux$ lsmod | grep hello
+hello                  16384  0

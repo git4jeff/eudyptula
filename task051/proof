@@ -1,0 +1,9 @@
+[ 1705.197412] usb 3-2: New USB device found, idVendor=046d, idProduct=c52f
+[ 1705.197429] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 1705.197431] usb 3-2: Product: USB Receiver
+[ 1705.197432] usb 3-2: Manufacturer: Logitech
+[ 1705.199400] input: Logitech USB Receiver as /devices/pci0000:00/0000:00:14.0/usb3/3-2/3-2:1.0/0003:046D:C52F.001B/input/input44
+[ 1705.259245] hid-generic 0003:046D:C52F.001B: input,hidraw0: USB HID v1.11 Mouse [Logitech USB Receiver] on usb-0000:00:14.0-2/input0
+[ 1705.261234] input: Logitech USB Receiver as /devices/pci0000:00/0000:00:14.0/usb3/3-2/3-2:1.1/0003:046D:C52F.001C/input/input45
+[ 1705.319271] hid-generic 0003:046D:C52F.001C: input,hiddev0,hidraw1: USB HID v1.11 Device [Logitech USB Receiver] on usb-0000:00:14.0-2/input1
+[ 1705.325551] Hello, World!

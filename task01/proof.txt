@@ -1,0 +1,18 @@
+#make
+make -C /lib/modules/`uname -r`/build M=$PWD
+make[1]: 正在进入目录 `/usr/src/linux-headers-3.13.0-43-generic'
+  LD      /home/jeff/eudyptula_challenge/task1/built-in.o
+  CC [M]  /home/jeff/eudyptula_challenge/task1/hello.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /home/jeff/eudyptula_challenge/task1/hello.mod.o
+  LD [M]  /home/jeff/eudyptula_challenge/task1/hello.ko
+make[1]:正在离开目录 `/usr/src/linux-headers-3.13.0-43-generic'
+
+#insmod hello.ko 
+#rmmod hello.ko
+#dmesg | grep World
+
+[ 8961.753569] Hello, World!
+[ 8978.807807] See you, World!
+

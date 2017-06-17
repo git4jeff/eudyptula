@@ -1,0 +1,5 @@
+cat /dev/eudyptula
+09b0d224b5bb
+echo -n nonsense > /dev/eudyptula
+echo: write error: Invalid argument
+echo -n 09b0d224b5bb > /dev/eudyptula

@@ -1,0 +1,164 @@
+yan@lp:~/Work/linux$ sudo make modules_install
+INSTALL arch/x86/crypto/aes-x86_64.ko
+INSTALL arch/x86/crypto/aesni-intel.ko
+INSTALL arch/x86/crypto/camellia-aesni-avx-x86_64.ko
+INSTALL arch/x86/crypto/camellia-x86_64.ko
+INSTALL arch/x86/crypto/crc32-pclmul.ko
+INSTALL arch/x86/crypto/crct10dif-pclmul.ko
+INSTALL arch/x86/crypto/ghash-clmulni-intel.ko
+INSTALL arch/x86/crypto/glue_helper.ko
+INSTALL arch/x86/events/intel/intel-cstate.ko
+INSTALL arch/x86/events/intel/intel-rapl-perf.ko
+INSTALL arch/x86/kvm/kvm-intel.ko
+INSTALL arch/x86/kvm/kvm.ko
+INSTALL crypto/ablk_helper.ko
+INSTALL crypto/arc4.ko
+INSTALL crypto/ccm.ko
+INSTALL crypto/cmac.ko
+INSTALL crypto/cryptd.ko
+INSTALL crypto/crypto_simd.ko
+INSTALL crypto/gcm.ko
+INSTALL crypto/ghash-generic.ko
+INSTALL crypto/lrw.ko
+INSTALL drivers/acpi/video.ko
+INSTALL drivers/ata/acard-ahci.ko
+INSTALL drivers/ata/ahci.ko
+INSTALL drivers/ata/ahci_platform.ko
+INSTALL drivers/ata/libahci.ko
+INSTALL drivers/ata/libahci_platform.ko
+INSTALL drivers/bluetooth/btbcm.ko
+INSTALL drivers/bluetooth/btintel.ko
+INSTALL drivers/bluetooth/btrtl.ko
+INSTALL drivers/bluetooth/btusb.ko
+INSTALL drivers/char/lp.ko
+INSTALL drivers/char/ppdev.ko
+INSTALL drivers/gpu/drm/drm.ko
+INSTALL drivers/gpu/drm/drm_kms_helper.ko
+INSTALL drivers/gpu/drm/i915/i915.ko
+INSTALL drivers/hid/hid-generic.ko
+INSTALL drivers/hid/hid.ko
+INSTALL drivers/hid/usbhid/usbhid.ko
+INSTALL drivers/hwmon/coretemp.ko
+INSTALL drivers/i2c/algos/i2c-algo-bit.ko
+INSTALL drivers/i2c/i2c-mux.ko
+INSTALL drivers/input/input-leds.ko
+INSTALL drivers/input/joydev.ko
+INSTALL drivers/input/mouse/psmouse.ko
+INSTALL drivers/input/serio/serio_raw.ko
+INSTALL drivers/input/sparse-keymap.ko
+INSTALL drivers/macintosh/mac_hid.ko
+INSTALL drivers/media/dvb-core/dvb-core.ko
+INSTALL drivers/media/i2c/ir-kbd-i2c.ko
+INSTALL drivers/media/media.ko
+INSTALL drivers/media/rc/rc-core.ko
+INSTALL drivers/media/tuners/mc44s803.ko
+INSTALL drivers/media/tuners/mt20xx.ko
+INSTALL drivers/media/tuners/tda18271.ko
+INSTALL drivers/media/tuners/tda827x.ko
+INSTALL drivers/media/tuners/tda8290.ko
+INSTALL drivers/media/tuners/tda9887.ko
+INSTALL drivers/media/tuners/tea5761.ko
+INSTALL drivers/media/tuners/tea5767.ko
+INSTALL drivers/media/tuners/tuner-simple.ko
+INSTALL drivers/media/tuners/tuner-types.ko
+INSTALL drivers/media/tuners/tuner-xc2028.ko
+INSTALL drivers/media/tuners/xc4000.ko
+INSTALL drivers/media/tuners/xc5000.ko
+INSTALL drivers/media/usb/uvc/uvcvideo.ko
+INSTALL drivers/media/v4l2-core/v4l2-common.ko
+INSTALL drivers/media/v4l2-core/v4l2-dv-timings.ko
+INSTALL drivers/media/v4l2-core/videobuf2-core.ko
+INSTALL drivers/media/v4l2-core/videobuf2-memops.ko
+INSTALL drivers/media/v4l2-core/videobuf2-v4l2.ko
+INSTALL drivers/media/v4l2-core/videobuf2-vmalloc.ko
+INSTALL drivers/media/v4l2-core/videodev.ko
+INSTALL drivers/mfd/lpc_ich.ko
+INSTALL drivers/misc/mei/mei-me.ko
+INSTALL drivers/misc/mei/mei.ko
+INSTALL drivers/net/ethernet/realtek/r8169.ko
+INSTALL drivers/net/fjes/fjes.ko
+INSTALL drivers/net/mii.ko
+INSTALL drivers/net/wireless/ath/ath.ko
+INSTALL drivers/net/wireless/ath/ath9k/ath9k.ko
+INSTALL drivers/net/wireless/ath/ath9k/ath9k_common.ko
+INSTALL drivers/net/wireless/ath/ath9k/ath9k_hw.ko
+INSTALL drivers/parport/parport.ko
+INSTALL drivers/parport/parport_pc.ko
+INSTALL drivers/pci/hotplug/shpchp.ko
+INSTALL drivers/platform/x86/topstar-laptop.ko
+INSTALL drivers/powercap/intel_rapl.ko
+INSTALL drivers/thermal/intel_powerclamp.ko
+INSTALL drivers/thermal/x86_pkg_temp_thermal.ko
+INSTALL drivers/video/fbdev/core/fb_sys_fops.ko
+INSTALL drivers/video/fbdev/core/syscopyarea.ko
+INSTALL drivers/video/fbdev/core/sysfillrect.ko
+INSTALL drivers/video/fbdev/core/sysimgblt.ko
+INSTALL drivers/xen/tmem.ko
+INSTALL drivers/xen/xen-privcmd.ko
+INSTALL fs/autofs4/autofs4.ko
+INSTALL kernel/configs.ko
+INSTALL net/bluetooth/bluetooth.ko
+INSTALL net/bluetooth/bnep/bnep.ko
+INSTALL net/bluetooth/rfcomm/rfcomm.ko
+INSTALL net/mac80211/mac80211.ko
+INSTALL net/wireless/cfg80211.ko
+INSTALL sound/ac97_bus.ko
+INSTALL sound/core/seq/snd-seq-device.ko
+INSTALL sound/core/seq/snd-seq-midi-emul.ko
+INSTALL sound/core/seq/snd-seq-midi-event.ko
+INSTALL sound/core/seq/snd-seq-midi.ko
+INSTALL sound/core/seq/snd-seq-virmidi.ko
+INSTALL sound/core/seq/snd-seq.ko
+INSTALL sound/core/snd-hwdep.ko
+INSTALL sound/core/snd-pcm.ko
+INSTALL sound/core/snd-rawmidi.ko
+INSTALL sound/core/snd-timer.ko
+INSTALL sound/core/snd.ko
+INSTALL sound/drivers/opl3/snd-opl3-lib.ko
+INSTALL sound/drivers/opl3/snd-opl3-synth.ko
+INSTALL sound/drivers/snd-virmidi.ko
+INSTALL sound/hda/snd-hda-core.ko
+INSTALL sound/pci/ac97/snd-ac97-codec.ko
+INSTALL sound/pci/hda/snd-hda-codec-generic.ko
+INSTALL sound/pci/hda/snd-hda-codec-hdmi.ko
+INSTALL sound/pci/hda/snd-hda-codec-realtek.ko
+INSTALL sound/pci/hda/snd-hda-codec.ko
+INSTALL sound/pci/hda/snd-hda-intel.ko
+INSTALL sound/pci/snd-als300.ko
+INSTALL sound/soundcore.ko
+INSTALL virt/lib/irqbypass.ko
+DEPMOD  4.11.0-rc2-00362-g93afaa4
+
+yan@lp:~/Work/linux$ sudo make install
+[sudo] password for yan: 
+sh ./arch/x86/boot/install.sh 4.11.0-rc2-00362-g93afaa4 arch/x86/boot/bzImag    e \
+         System.map "/boot"
+run-parts: executing /etc/kernel/postinst.d/apt-auto-removal 4.11.0-rc2-00362-g93afaa4 /boot/vmlinuz-4.11.0-rc2-00362-g93afaa4
+run-parts: executing /etc/kernel/postinst.d/initramfs-tools 4.11.0-rc2-00362-g93afaa4 /boot/vmlinuz-4.11.0-rc2-00362-g93afaa4
+update-initramfs: Generating /boot/initrd.img-4.11.0-rc2-00362-g93afaa4
+W: Possible missing firmware /lib/firmware/i915/kbl_dmc_ver1_01.bin for module i915
+W: Possible missing firmware /lib/firmware/i915/glk_dmc_ver1_01.bin for module i915
+W: Possible missing firmware /lib/firmware/i915/kbl_guc_ver9_14.bin for module i915
+W: Possible missing firmware /lib/firmware/i915/bxt_guc_ver8_7.bin for module i915
+W: Possible missing firmware /lib/firmware/i915/kbl_huc_ver02_00_1810.bin for module i915
+W: Possible missing firmware /lib/firmware/i915/bxt_huc_ver01_07_1398.bin for module i915
+W: Possible missing firmware /lib/firmware/i915/skl_huc_ver01_07_1398.bin for module i915
+run-parts: executing /etc/kernel/postinst.d/pm-utils 4.11.0-rc2-00362-g93afaa4 /boot/vmlinuz-4.11.0-rc2-00362-g93afaa4
+run-parts: executing /etc/kernel/postinst.d/unattended-upgrades 4.11.0-rc2-00362-g93afaa4 /boot/vmlinuz-4.11.0-rc2-00362-g93afaa4
+run-parts: executing /etc/kernel/postinst.d/update-notifier 4.11.0-rc2-00362-g93afaa4 /boot/vmlinuz-4.11.0-rc2-00362-g93afaa4
+run-parts: executing /etc/kernel/postinst.d/zz-update-grub 4.11.0-rc2-00362-g93afaa4 /boot/vmlinuz-4.11.0-rc2-00362-g93afaa4
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-4.11.0-rc2-00362-g93afaa4
+Found initrd image: /boot/initrd.img-4.11.0-rc2-00362-g93afaa4
+Found linux image: /boot/vmlinuz-4.11.0-rc2-00362-g93afaa4.old
+Found initrd image: /boot/initrd.img-4.11.0-rc2-00362-g93afaa4
+Found linux image: /boot/vmlinuz-4.8.0-41-generic
+Found initrd image: /boot/initrd.img-4.8.0-41-generic
+Found linux image: /boot/vmlinuz-4.8.0-36-generic
+Found initrd image: /boot/initrd.img-4.8.0-36-generic
+Found memtest86+ image: /boot/memtest86+.elf
+Found memtest86+ image: /boot/memtest86+.bin
+Found Windows 7 (loader) on /dev/sda1
+Found Ubuntu 16.04.2 LTS (16.04) on /dev/sda5
+done
+

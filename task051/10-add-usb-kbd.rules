@@ -1,0 +1,2 @@
+ACTION=="add", SUBSYSTEM=="usb", ATTR{bInterfaceClass}=="03", ATTR{bInterfaceProtocol}=="02", RUN+="/sbin/insmod /home/yan/Work/task05/hello.ko"
+
