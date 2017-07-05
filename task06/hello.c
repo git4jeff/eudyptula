@@ -48,12 +48,14 @@ static struct miscdevice hello_misc_device = {
 
 static int hello_init(void)
 {
-	int err;
+	int ret;
 
 	pr_debug("Hello, World!\n");
-	err = misc_register(&hello_misc_device);
-	if (err)
+	ret = misc_register(&hello_misc_device);
+	if (ret) {
 		pr_err("misc_register failed\n");
+		return ret;
+	}
 
 	return 0;
 }
