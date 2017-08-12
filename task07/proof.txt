@@ -1,0 +1,33 @@
+Get linux-next tree follow the steps as in
+https://www.kernel.org/doc/man-pages/linux-next.html
+
+1. Clone a copy of the mainline linux git repository:
+git clone https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
+
+2. Add a remote tracking branch for linux-next:
+$ cd linux
+$ git remote add linux-next https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git
+
+3. Fetch linux-next:
+$ git fetch linux-next
+
+4. List linux-next tags:
+$ git tag -l "next-*"
+next-20170810
+next-20170811
+
+5. Choose next-20170811 version for work, and create a local branch based on the version:
+$ git checkout -b local0811 next-20170811
+
+6. Save the configuration file .config for compiling
+
+7. Make clean build in linux/
+$ make mrproper
+
+8. Rebuild linux using backuped .config with menuconfig load and save
+
+9. Install linux and modules, and update grub configuration
+
+10. Reboot system and check the uname output
+$ uname -a
+Linux lp 4.13.0-rc4-next-20170811 #1 SMP Sat Aug 12 18:40:08 CST 2017 x86_64 x86_64 x86_64 GNU/Linux
